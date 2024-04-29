@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pet Adoption</title>
+  <style>
+    /* Add your CSS styles here */
+    /* Reset styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f5f5f5;
+  color: #323C59;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+header {
+  background-color: #316b7c;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+header h1 {
+  margin-bottom: 10px;
+}
+
+.pet-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.pet-item {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  margin: 20px;
+  width: 300px;
+}
+
+.pet-item img {
+  width: 100%;
+  height: auto;
+}
+
+.pet-item h2,
+.pet-item p {
+  padding: 10px;
+}
+
+.adopt-btn {
+  display: block;
+  background-color: #FFCC00;
+  color: #323C59;
+  text-align: center;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 10px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.adopt-btn:hover {
+  background-color: #cc9900;
+}
+
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>Available Pets for Adoption</h1>
+    </div>
+  </header>
+
+  <div class="pet-list">
+    <div class="pet-item">
+      <img src="pet1.jpg" alt="Pet">
+      <h2>Cat</h2>
+      <p>Age: 6 month</p>
+      <p>Breed: Breed</p>
+      <p>Gender: Male/Female</p>
+      <p>Description: </p>
+      <p>Price: BDT 10000</p>
+      <a href="petadoptform.html" class="adopt-btn">Adopt</a>
+    </div>
+    <!-- Add more pet items here -->
+    <div class="pet-item">
+        <img src="pet2.jpg" alt="Pet">
+        <h2>Dog</h2>
+        <p>Age: 1 years</p>
+        <p>Breed: Breed</p>
+        <p>Gender: Male/Female</p>
+        <p>Description: </p>
+        <p>Price: BDT 10000</p>
+        <a href="petadoptform.html" class="adopt-btn">Adopt</a>
+      </div>
+      <div class="pet-item">
+        <img src="pet3.jpg" alt="Pet">
+        <h2>Persian Cat</h2>
+        <p>Age: 1 years</p>
+        <p>Breed: Breed</p>
+        <p>Gender: Male/Female</p>
+        <p>Description: </p>
+        <p>Price: BDT 40000</p>
+        <a href="petadoptform.html" class="adopt-btn">Adopt</a>
+      </div>
+      <div class="pet-item">
+        <img src="pet4.jpg" alt="Pet">
+        <h2>Rabbit</h2>
+        <p>Age: 2 month</p>
+        <p>Breed: Breed</p>
+        <p>Gender: Male/Female</p>
+        <p>Description: </p>
+        <p>Price: BDT 5000</p>
+        <a href="petadoptform.html" class="adopt-btn">Adopt</a>
+      </div>
+      <div class="pet-item">
+        <img src="pet5.jpg" alt="Pet">
+        <h2>German Shephard</h2>
+        <p>Age: 1 years</p>
+        <p>Breed: Breed</p>
+        <p>Gender: Male/Female</p>
+        <p>Description: </p>
+        <p>Price: BDT 40000</p>
+        <a href="petadoptform.html" class="adopt-btn">Adopt</a>
+      </div>
+  </div>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2024 Pet Adoption. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>
